@@ -112,7 +112,7 @@ class UpdateBanner extends Component {
 
   _openChangelog (e) {
     e.preventDefault()
-    ipc.externalOpen('https://on.cypress.io/changelog')
+    ipc.externalOpen('https://on.cypress.io/changelog?source=dgui_footer')
   }
 
   _openDownload = (e) => {
